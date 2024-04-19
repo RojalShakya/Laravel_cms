@@ -18,16 +18,16 @@
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                                <li class="nav-item"><a class="nav-link" href="portfolio-details.html">Project Details</a></li>
-                                <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{route('portfolio')}}">Portfolio</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{route('projectdetails')}}">Project Details</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{route('elements')}}">Elements</a></li>
                             </ul>
                         </li>
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{route('blogs')}}">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{route('blogsdetail')}}">Blog Details</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
