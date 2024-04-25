@@ -12,25 +12,25 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="{{route('home')}}">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{route('about')}}">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{route('services')}}">Services</a>
+                        <li class="nav-item active"><a class="nav-link" href="{{route('frontend.home')}}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('frontend.about')}}">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('frontend.services')}}">Services</a>
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="{{route('portfolio')}}">Portfolio</a></li>
-                                <li class="nav-item"><a class="nav-link" href="{{route('projectdetails')}}">Project Details</a></li>
-                                <li class="nav-item"><a class="nav-link" href="{{route('elements')}}">Elements</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{route('frontend.portfolio')}}">Portfolio</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{route('frontend.project-details')}}">Project Details</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{route('frontend.elements')}}">Elements</a></li>
                             </ul>
                         </li>
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="{{route('blogs')}}">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="{{route('blogsdetail')}}">Blog Details</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{route('frontend.blogs')}}">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{route('frontend.blog-details')}}">Blog Details</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('frontend.contact')}}">Contact</a></li>
                     </ul>
                 </div>
             </div>

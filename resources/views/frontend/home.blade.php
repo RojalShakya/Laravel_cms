@@ -3,20 +3,22 @@
     HomePage
 @endsection
 @section('content')
+
 <section class="home_banner_area">
+
     <div class="banner_inner">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="home_left_img">
-                        <img src="{{asset('frontend\img\banner\home-left-1.png')}}" alt="">
+                        <img src="{{asset($about->profile)}}" alt="" >
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="banner_content">
                         <h5>This is me</h5>
-                        <h2>Travor James</h2>
-                        <p>You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
+                        <h2>{{$about->name}}</h2>
+                        {{-- <p>{{$about}}</p> --}}
                         <a class="banner_btn" href="#">Discover Now</a>
                     </div>
                 </div>
